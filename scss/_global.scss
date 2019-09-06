@@ -84,8 +84,15 @@ select {
 
 }
 
-.card p {
-  font-size: .8rem;
+.card {
+  h6 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+
 }
 
 .badge.inverse {
@@ -133,5 +140,31 @@ select {
 .recomended {
   .card {
     width: 33%;
+  }
+}
+.notifications {
+  height: 45vh;
+  overflow-y: scroll;
+}
+.industry-feedback {
+  height: 25vh;
+  overflow-y: scroll;
+}
+.table {
+  font-size: .85em;
+}
+thead {
+  background: transparentize($teal, .8);
+  color: $teal;
+}
+.table-bordered th {
+    border-color: transparentize($teal,.8);
+}
+#dataTable_wrapper {
+  .row:nth-child(3) {
+    .col-sm-12 {
+      height: 40vh;
+      overflow: scroll-y;
+    }
   }
 }
