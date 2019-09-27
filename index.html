@@ -1,799 +1,1122 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Customer Center | ATPCO</title>
-
-  <!-- Custom fonts for this template-->
-  <link rel="stylesheet" href="https://use.typekit.net/tne4cbz.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-
-  <script src="https://kit.fontawesome.com/d166a858ac.js"></script>
-
-  <!-- Custom styles for this template-->
-  <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <title>Customer Center | ATPCO</title>
+   <!-- Custom fonts for this template-->
+   <link rel="stylesheet" href="https://use.typekit.net/tne4cbz.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+   <script src="https://kit.fontawesome.com/d166a858ac.js"></script>
+   <!-- Custom styles for this template-->
+   <link href="css/sb-admin-2.min.css" rel="stylesheet">
 </head>
-
 <body id="page-top">
-
-  <!-- Page Wrapper -->
-  <div id="wrapper">
-
-    <!-- Sidebar -->
-    <ul class="navbar-nav sidebar accordion" id="accordionSidebar">
-
-      <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-
-        <div class="sidebar-brand-text mx-3" id="logo"><img src="img/logo.png"></div>
-      </a>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider my-0">
-
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Customer Center Dashboard</span></a>
+   <!-- Page Wrapper -->
+   <div id="wrapper">
+      <!-- Sidebar -->
+      <ul class="navbar-nav sidebar accordion" id="accordionSidebar">
+         <!-- Sidebar - Brand -->
+         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <div class="sidebar-brand-text mx-3" id="logo"><img src="img/logo.png"></div>
+         </a>
+         <!-- Divider -->
+         <hr class="sidebar-divider my-0">
+         <!-- Nav Item - Dashboard -->
+         <li class="nav-item active">
+            <a class="nav-link" href="index.html">
+               <i class="fas fa-fw fa-tachometer-alt"></i>
+               <span>Dashboard</span></a>
+            </li>
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+            <!-- Heading -->
+            <li class="nav-item">
+               <a class="nav-link" href="#">
+                  <i class="far fa-flag"></i>
+                  <span>Notifications</span>
+               </a>
+            </li>
+            <hr class="sidebar-divider">
+            <li class="nav-item">
+               <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseResources" aria-expanded="true" aria-controls="collapseResources">
+                  <i class="fas fa-cogs"></i>
+                  <span>Resources</span>
+               </a>
+               <div id="collapseResources" class="collapse" aria-labelledby="collapseResources" >
+                  <div class="bg-white py-2 collapse-inner rounded">
+                     <div id="resources-sub" class="collapse show" aria-labelledby="headingTwo" data-parent="#headingResources" style="">
+                      <div class="py-2 collapse-inner rounded">
+                       <!--<h6 class="collapse-header">Custom Components:</h6>-->
+                       <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
+                       <a class="collapse-item" href="#">Answer Table Subscriptions</a>
+                       <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
+                       <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
+                       <a class="collapse-item" href="#">  Automated Rules Upload </a>
+                       <a class="collapse-item" href="#">Fares Download Service </a>
+                       <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
+                       <a class="collapse-item" href="#">Fares Subscriptions </a>
+                       <a class="collapse-item" href="#">Fares Upload Service </a>
+                       <a class="collapse-item" href="#">Footnotes Upload Service </a>
+                       <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
+                       <a class="collapse-item" href="#">Full Map Routings – Upload </a>
+                       <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
+                       <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
+                       <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
+                       <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
+                       <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
+                       <a class="collapse-item" href="#">Tax Collection and Distribution</a>
+                       <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
+                    </div>
+                 </div>
+              </div>
+           </div>
         </li>
-
-        <!-- Divider -->
         <hr class="sidebar-divider">
-
-        <!-- Heading -->
-
         <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-            <i class="far fa-flag"></i>
-            <span>Notifications</span>
-          </a>
-          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
-              <a class="collapse-item" href="#">Answer Table Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
-              <a class="collapse-item" href="#">  Automated Rules Upload </a>
-              <a class="collapse-item" href="#">Fares Download Service </a>
-              <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
-              <a class="collapse-item" href="#">Fares Subscriptions </a>
-              <a class="collapse-item" href="#">Fares Upload Service </a>
-              <a class="collapse-item" href="#">Footnotes Upload Service </a>
-              <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
-              <a class="collapse-item" href="#">Full Map Routings – Upload </a>
-              <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
-              <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
-              <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
-              <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
-              <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
-              <a class="collapse-item" href="#">Tax Collection and Distribution</a>
-              <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
-            </div>
-          </div>
-        </li>
-        <hr class="sidebar-divider">
-
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-            <i class="fas fa-cogs"></i>
-            <span>Resources</span>
-          </a>
-          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
-              <a class="collapse-item" href="#">Answer Table Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
-              <a class="collapse-item" href="#">  Automated Rules Upload </a>
-              <a class="collapse-item" href="#">Fares Download Service </a>
-              <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
-              <a class="collapse-item" href="#">Fares Subscriptions </a>
-              <a class="collapse-item" href="#">Fares Upload Service </a>
-              <a class="collapse-item" href="#">Footnotes Upload Service </a>
-              <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
-              <a class="collapse-item" href="#">Full Map Routings – Upload </a>
-              <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
-              <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
-              <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
-              <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
-              <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
-              <a class="collapse-item" href="#">Tax Collection and Distribution</a>
-              <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
-            </div>
-          </div>
-        </li>
-
-        <hr class="sidebar-divider">
-
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
             <i class="far fa-file-code"></i>
             <span>Product Development</span>
-          </a>
-          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+         </a>
+         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
-              <a class="collapse-item" href="#">Answer Table Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
-              <a class="collapse-item" href="#">  Automated Rules Upload </a>
-              <a class="collapse-item" href="#">Fares Download Service </a>
-              <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
-              <a class="collapse-item" href="#">Fares Subscriptions </a>
-              <a class="collapse-item" href="#">Fares Upload Service </a>
-              <a class="collapse-item" href="#">Footnotes Upload Service </a>
-              <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
-              <a class="collapse-item" href="#">Full Map Routings – Upload </a>
-              <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
-              <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
-              <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
-              <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
-              <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
-              <a class="collapse-item" href="#">Tax Collection and Distribution</a>
-              <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
+               <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
+               <a class="collapse-item" href="#">Answer Table Subscriptions</a>
+               <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
+               <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
+               <a class="collapse-item" href="#">  Automated Rules Upload </a>
+               <a class="collapse-item" href="#">Fares Download Service </a>
+               <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
+               <a class="collapse-item" href="#">Fares Subscriptions </a>
+               <a class="collapse-item" href="#">Fares Upload Service </a>
+               <a class="collapse-item" href="#">Footnotes Upload Service </a>
+               <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
+               <a class="collapse-item" href="#">Full Map Routings – Upload </a>
+               <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
+               <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
+               <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
+               <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
+               <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
+               <a class="collapse-item" href="#">Tax Collection and Distribution</a>
+               <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
             </div>
-          </div>
-        </li>
-        <hr class="sidebar-divider">
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+         </div>
+      </li>
+      <hr class="sidebar-divider">
+      <li class="nav-item">
+         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
             <i class="fas fa-chalkboard"></i>
             <span>Training</span>
-          </a>
-          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+         </a>
+         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
-              <a class="collapse-item" href="#">Answer Table Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
-              <a class="collapse-item" href="#">  Automated Rules Upload </a>
-              <a class="collapse-item" href="#">Fares Download Service </a>
-              <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
-              <a class="collapse-item" href="#">Fares Subscriptions </a>
-              <a class="collapse-item" href="#">Fares Upload Service </a>
-              <a class="collapse-item" href="#">Footnotes Upload Service </a>
-              <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
-              <a class="collapse-item" href="#">Full Map Routings – Upload </a>
-              <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
-              <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
-              <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
-              <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
-              <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
-              <a class="collapse-item" href="#">Tax Collection and Distribution</a>
-              <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
+               <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
+               <a class="collapse-item" href="#">Answer Table Subscriptions</a>
+               <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
+               <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
+               <a class="collapse-item" href="#">  Automated Rules Upload </a>
+               <a class="collapse-item" href="#">Fares Download Service </a>
+               <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
+               <a class="collapse-item" href="#">Fares Subscriptions </a>
+               <a class="collapse-item" href="#">Fares Upload Service </a>
+               <a class="collapse-item" href="#">Footnotes Upload Service </a>
+               <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
+               <a class="collapse-item" href="#">Full Map Routings – Upload </a>
+               <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
+               <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
+               <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
+               <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
+               <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
+               <a class="collapse-item" href="#">Tax Collection and Distribution</a>
+               <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
             </div>
-          </div>
-        </li>
-        <hr class="sidebar-divider">
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+         </div>
+      </li>
+      <hr class="sidebar-divider">
+         <!--<li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
             <i class="far fa-calendar-alt"></i>
             <span>Events</span>
-          </a>
-          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
-              <a class="collapse-item" href="#">Answer Table Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
-              <a class="collapse-item" href="#">  Automated Rules Upload </a>
-              <a class="collapse-item" href="#">Fares Download Service </a>
-              <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
-              <a class="collapse-item" href="#">Fares Subscriptions </a>
-              <a class="collapse-item" href="#">Fares Upload Service </a>
-              <a class="collapse-item" href="#">Footnotes Upload Service </a>
-              <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
-              <a class="collapse-item" href="#">Full Map Routings – Upload </a>
-              <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
-              <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
-              <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
-              <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
-              <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
-              <a class="collapse-item" href="#">Tax Collection and Distribution</a>
-              <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
+            </a>
+            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+               <div class="bg-white py-2 collapse-inner rounded">
+                  <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
+                  <a class="collapse-item" href="#">Answer Table Subscriptions</a>
+                  <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
+                  <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
+                  <a class="collapse-item" href="#">  Automated Rules Upload </a>
+                  <a class="collapse-item" href="#">Fares Download Service </a>
+                  <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
+                  <a class="collapse-item" href="#">Fares Subscriptions </a>
+                  <a class="collapse-item" href="#">Fares Upload Service </a>
+                  <a class="collapse-item" href="#">Footnotes Upload Service </a>
+                  <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
+                  <a class="collapse-item" href="#">Full Map Routings – Upload </a>
+                  <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
+                  <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
+                  <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
+                  <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
+                  <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
+                  <a class="collapse-item" href="#">Tax Collection and Distribution</a>
+                  <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
+               </div>
             </div>
-          </div>
-        </li>
-        <hr class="sidebar-divider">
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-            <i class="fas fa-users-cog"></i>
-            <span>Working Groups</span>
-          </a>
-          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
-              <a class="collapse-item" href="#">Answer Table Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
-              <a class="collapse-item" href="#">  Automated Rules Upload </a>
-              <a class="collapse-item" href="#">Fares Download Service </a>
-              <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
-              <a class="collapse-item" href="#">Fares Subscriptions </a>
-              <a class="collapse-item" href="#">Fares Upload Service </a>
-              <a class="collapse-item" href="#">Footnotes Upload Service </a>
-              <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
-              <a class="collapse-item" href="#">Full Map Routings – Upload </a>
-              <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
-              <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
-              <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
-              <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
-              <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
-              <a class="collapse-item" href="#">Tax Collection and Distribution</a>
-              <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
+         </li>
+         <hr class="sidebar-divider">-->
+         <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+               <i class="fas fa-users-cog"></i>
+               <span>Working Groups</span>
+            </a>
+            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+               <div class="bg-white py-2 collapse-inner rounded">
+                  <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
+                  <a class="collapse-item" href="#">Answer Table Subscriptions</a>
+                  <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
+                  <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
+                  <a class="collapse-item" href="#">  Automated Rules Upload </a>
+                  <a class="collapse-item" href="#">Fares Download Service </a>
+                  <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
+                  <a class="collapse-item" href="#">Fares Subscriptions </a>
+                  <a class="collapse-item" href="#">Fares Upload Service </a>
+                  <a class="collapse-item" href="#">Footnotes Upload Service </a>
+                  <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
+                  <a class="collapse-item" href="#">Full Map Routings – Upload </a>
+                  <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
+                  <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
+                  <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
+                  <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
+                  <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
+                  <a class="collapse-item" href="#">Tax Collection and Distribution</a>
+                  <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
+               </div>
             </div>
-          </div>
-        </li>
-        <hr class="sidebar-divider">
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-            <i class="fas fa-plane"></i>
-            <span>FareManager</span>
-          </a>
-          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
-              <a class="collapse-item" href="#">Answer Table Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
-              <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
-              <a class="collapse-item" href="#">  Automated Rules Upload </a>
-              <a class="collapse-item" href="#">Fares Download Service </a>
-              <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
-              <a class="collapse-item" href="#">Fares Subscriptions </a>
-              <a class="collapse-item" href="#">Fares Upload Service </a>
-              <a class="collapse-item" href="#">Footnotes Upload Service </a>
-              <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
-              <a class="collapse-item" href="#">Full Map Routings – Upload </a>
-              <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
-              <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
-              <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
-              <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
-              <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
-              <a class="collapse-item" href="#">Tax Collection and Distribution</a>
-              <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
+         </li>
+         <hr class="sidebar-divider">
+         <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+               <i class="fas fa-plane"></i>
+               <span>FareManager</span>
+            </a>
+            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+               <div class="bg-white py-2 collapse-inner rounded">
+                  <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a>
+                  <a class="collapse-item" href="#">Answer Table Subscriptions</a>
+                  <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a>
+                  <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a>
+                  <a class="collapse-item" href="#">  Automated Rules Upload </a>
+                  <a class="collapse-item" href="#">Fares Download Service </a>
+                  <a class="collapse-item" href="#">Fare Rule Output Product (FROP) </a>
+                  <a class="collapse-item" href="#">Fares Subscriptions </a>
+                  <a class="collapse-item" href="#">Fares Upload Service </a>
+                  <a class="collapse-item" href="#">Footnotes Upload Service </a>
+                  <a class="collapse-item" href="#">Full Map Routings Subscriptions </a>
+                  <a class="collapse-item" href="#">Full Map Routings – Upload </a>
+                  <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions </a>
+                  <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions </a>
+                  <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a>
+                  <a class="collapse-item" href="#">Service Fees Subscription Documentation</a>
+                  <a class="collapse-item" href="#">Supporting Data Subscription Service</a>
+                  <a class="collapse-item" href="#">Tax Collection and Distribution</a>
+                  <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
+               </div>
             </div>
-          </div>
-        </li>
-
-        <hr class="sidebar-divider">
-
-      
+         </li>
+         <hr class="sidebar-divider">
       </ul>
       <!-- End of Sidebar -->
-
       <!-- Content Wrapper -->
       <div id="content-wrapper" class="d-flex flex-column">
+         <!-- Main Content -->
+         <div id="content">
+            <!-- Topbar -->
+            <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+               <!-- Sidebar Toggle (Topbar) -->
+               <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                  <i class="fa fa-bars"></i>
+               </button>
+               <!-- Topbar Navbar -->
+               <ul class="navbar-nav main-menu-nav">
+                  <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                  
 
-        <!-- Main Content -->
-        <div id="content">
+                  <!-- Site Nav -->
 
-          <!-- Topbar -->
-          <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-            <!-- Sidebar Toggle (Topbar) -->
-            <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-              <i class="fa fa-bars"></i>
-            </button>
-
-            <!-- Topbar Search -->
-            <form class="d-flex mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Keywords" aria-label="Search" aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                  <a href="search-results.html" class="btn btn-primary">
-                    <i class="fas fa-search fa-sm"></i>
+                  <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     About
                   </a>
+                  <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                    <a class="dropdown-item" href="#">Leadership</a>
+                    <a class="dropdown-item" href="#">Customers</a>
+                    <a class="dropdown-item" href="#">Careers</a>
+                 </div>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="solutionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Solutions
+               </a>
+               <div class="dropdown-menu" aria-labelledby="solutionsDropdown">
+                 <div class="row">
+                  <div class="col-md-4">
+                   <h6><a href="#">Retailing</a></h6>
+                   <a class="dropdown-item" href="#">Next Generation Storefront (NGS)™</a>
+                   <a class="dropdown-item" href="#">Routehappy Rich Content</a>
+                   <a class="dropdown-item" href="#">Ancillaries</a>
                 </div>
-              </div>
-              <div class="input-group">
-               <select id="edit-field-notification-month-target-id" name="field_notification_month_target_id" class="form-select form-control"><option value="All" selected="selected">Date</option><option value="368">January 2019</option><option value="369">February 2019</option><option value="370">March 2019</option><option value="371">April 2019</option><option value="372">May 2019</option><option value="373">June 2019</option><option value="374">July 2019</option><option value="375">August 2019</option><option value="376">September 2019</option><option value="377">October 2019</option><option value="378">November 2019</option><option value="379">December 2019</option><option value="142">March 2018</option><option value="143">April 2018</option><option value="204">May 2018</option><option value="205">June 2018</option><option value="206">July 2018</option><option value="290">August 2018</option><option value="291">September 2018</option><option value="294">October 2018</option><option value="292">November 2018</option><option value="293">December 2018</option></select>
+                <div class="col-md-4">
+                   <h6><a href="#">Distribution</a></h6>
+                   <a class="dropdown-item" href="#">NDC</a>
+                   <a class="dropdown-item" href="#">Subscriptions</a>
+                   <a class="dropdown-item" href="#">APIs</a>
+                </div>
+                <div class="col-md-4">
+                   <h6><a href="#">Offers</a></h6>
+                   <a class="dropdown-item" href="#">Pricing Data</a>
+                   <a class="dropdown-item" href="#">Dynamic Pricing</a>
+                   <a class="dropdown-item" href="#">Pricing Analysis</a>
+                   <a class="dropdown-item" href="#">Orders &amp; Settlement</a>
+                </div>
              </div>
-             <div class="input-group">
-              <select data-drupal-selector="edit-field-notification-product-target-id" id="edit-field-notification-product-target-id" name="field_notification_product__target_id" class="form-select form-control"><option value="All" selected="selected">Related Product</option><option value="79">Ancillaries &amp; Fees Data</option><option value="82">Data Platform Services</option><option value="78">Fares &amp; Rules Data</option><option value="77">NDC Solutions</option><option value="76">Revenue Accounting</option><option value="75">Revenue Management &amp; Pricing</option><option value="80">Tax Data</option></select>
-            </div>
-            <div class="input-group">
-              <select data-drupal-selector="edit-field-notification-type-target-id" id="edit-field-notification-type-target-id" name="field_notification_type_target_id" class="form-select form-control"><option value="All" selected="selected">Type</option><option value="65">Events</option><option value="67">Feedback Needed</option><option value="68">Important</option><option value="69">News</option><option value="66">Product Updates</option></select>
-            </div>
-          </form>
-
-          <!-- Topbar Navbar -->
-          <ul class="navbar-nav ml-auto">
-
-            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-            <li class="nav-item dropdown no-arrow d-sm-none">
-              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-search fa-fw"></i>
-              </a>
-              <!-- Dropdown - Messages -->
-              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
-                <form class="form-inline mr-auto w-100 navbar-search">
-                  <div class="input-group">
-                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-primary" type="button">
-                        <i class="fas fa-search fa-sm"></i>
-                      </button>
-                    </div>
-                  </div>
+          </li>
 
 
-
-
-                </form>
-              </div>
-            </li>
-
-            <!-- Nav Item - Alerts -->
-            <li class="nav-item dropdown no-arrow mx-1">
-              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-bell fa-fw"></i>
-                <!-- Counter - Alerts -->
-                <span class="badge badge-danger badge-counter">3+</span>
-              </a>
-              <!-- Dropdown - Alerts -->
-              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
-                <h6 class="dropdown-header">
-                  Alerts Center
-                </h6>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="mr-3">
-                    <div class="icon-circle bg-primary">
-                      <i class="fas fa-file-alt text-white"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="small text-gray-500">December 12, 2019</div>
-                    <span class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nunc eget est euismod vestibulum at in justo. Mauris ornare mi quis augue dapibus bibendum.</span>
-                  </div>
-                </a>
-               
-                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
-              </div>
-            </li>
-
-
-
-            <!-- Nav Item - User Information -->
-            <li class="nav-item dropdown no-arrow">
-              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Terry Bollea</span>
-                <img class="img-profile rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hollywood_Hulk_Hogan.jpg/220px-Hollywood_Hulk_Hogan.jpg">
-              </a>
-              <!-- Dropdown - User Information -->
-              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Profile
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Settings
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Activity Log
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
-                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Logout
-                </a>
-              </div>
-            </li>
-
-          </ul>
-
-        </nav>
-        <!-- End of Topbar -->
-
-        <!-- Begin Page Content -->
-        <div class="container-fluid">
-
-          <!-- Page Heading -->
-          <!--<div class="d-sm-flex align-items-center justify-content-between mb-0">
-            <ol class="breadcrumb col-md-12">
-              <li class="breadcrumb-item active"><a href="../index.html">Customer Center Dashboard</a></li>
-            </ol>
-          </div>-->
-
-
-
-          <!-- Content Row -->
-
-          <div class="row">
-
-            <div class="col-xl-10 col-lg-8">
-              <div class="card shadow mb-4">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Notifications</h6>
-                  <div class="dropdown no-arrow">
-                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Dropdown Header:</div>
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card Body -->
-                <div class="card-body notifications">
-                  <div class="row">
-                    <div class="col-md-2 badges">
-                      <span class="badge badge-pill badge-secondary inverse d-block">8.20.2019 | 19-152</span>
-
-                      <span class="badge badge-pill badge-success inverse d-block">Product Updates</span>
-                    </div>
-                    <div class="col-md-9">
-                      <h6><a href="#">New Passenger Type Code</a></h6>
-                      <p>At industry request, ATPCO is implementing a new private Passenger Type Code, CET, effective immediately. </p>
-                      <span class="badge badge-pill badge-info inverse">Fares & Rules Data</span>
-                    </div>
-                  </div>
-                  <hr>
-                  <div class="row">
-                    <div class="col-md-2 badges">
-                      <span class="badge badge-pill badge-secondary inverse d-block">8.19.2019 | 19-152</span>
-
-                      <span class="badge badge-pill badge-success inverse d-block">Product Updates</span>
-                    </div>
-                    <div class="col-md-9">
-                      <h6><a href="#">IATA Weighted Mileage Involuntary Reroute Settlement Rates for September 2019</a></h6>
-                      <p>In accordance with ACH Communications No. 142 of 13 August 2019, the IATA Weighted Mileage Involuntary Reroute Settlement Rates were updated to apply to new sectors on a bilateral basis.</p>
-                      <span class="badge badge-pill badge-info inverse">Ancillaries & Fees Data</span> <span class="badge badge-pill badge-info inverse">Revenue Management & Pricing</span>
-                    </div>
-                  </div>
-                  <hr>
-                  <div class="row">
-                    <div class="col-md-2 badges">
-                      <span class="badge badge-pill badge-secondary inverse d-block">8.14.2019 | 19-152</span>
-                      <span class="badge badge-pill badge-success inverse d-block">Product Updates</span>
-                    </div>
-                    <div class="col-md-9">
-                      <h6><a href="#">New Passenger Type Code</a></h6>
-                      <p>At industry request, ATPCO is implementing a new private Passenger Type Code, CET, effective immediately. </p>
-                      <span class="badge badge-pill badge-info inverse">Fares & Rules Data</span>
-
-                    </div>
-                  </div>
-                  <hr>
-
-                </div>
-              </div>
-              <div class="card shadow mb-4">
-              <!-- Card Header - Dropdown -->
-              <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Product Development Plan Recent Updates</h6>
-                <div class="dropdown no-arrow">
-                  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                    <div class="dropdown-header">Dropdown Header:</div>
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </div>
-              </div>
-              <!-- Card Body -->
-              <div class="card-body">
-             
-                  <form class="views-exposed-form bef-exposed-form" data-drupal-selector="views-exposed-form-product-development-plan-with-filter-block-1" action="/generate/csv" method="get" id="views-exposed-form-product-development-plan-with-filter-block-1" accept-charset="UTF-8">
-                       <div class="container">
-                  <div class="row">
-  <div class="form-group col-md-2">
-        <select  id="edit-field-pdp-quarters-target-id" name="field_pdp_quarters_target_id" class="form-select form-control"><option value="All" selected="selected">Quarter</option><option value="329">Q1</option><option value="330">Q2</option><option value="331">Q3</option><option value="332">Q4</option></select>
-        </div>
-<div class="form-group col-md-2">
-        <select data-drupal-selector="edit-field-pdp-year-only-value" id="edit-field-pdp-year-only-value" name="field_pdp_year_only_value" class="form-select form-control"><option value="All" selected="selected">Year</option><option value="1">2018</option><option value="2">2019</option><option value="3">2020</option></select>
-        </div>
-
-<div class="form-group col-md-2">
-        <select data-drupal-selector="edit-field-status-target-id" id="edit-field-status-target-id" name="field_status_target_id" class="form-select form-control"><option value="All">Status</option><option value="43">Implemented</option><option value="44">Installed</option><option value="42" selected="selected">Planned</option></select>
-        </div>
-<div class="form-group col-md-3">
-        <select data-drupal-selector="edit-field-subscriber-impact-value" id="edit-field-subscriber-impact-value" name="field_subscriber_impact_value" class="form-control"><option value="All" selected="selected">Subscriber Impact</option><option value="1">Yes</option><option value="2">None</option></select>
-        </div>
-<div class="form-group col-md-3">
-        <select data-drupal-selector="edit-field-pdp-data-app-impact-value" id="edit-field-pdp-data-app-impact-value" name="field_pdp_data_app_impact_value" class="form-control"><option value="All" selected="selected">Data App Impact</option><option value="Data Application Impacted">Yes</option><option value="">None</option></select>
-        </div>
-<div class="col-md-12">
-  <div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="Search Product Timeline" aria-label="Recipient's username" aria-describedby="basic-addon2">
-  <div class="input-group-append">
-    <button class="btn btn-primary" type="button">Search</button>
-  </div>
-</div>
-
-</div>
-</div>
-</form>
-
-                 <div class="table-responsive">
-                <table class="table table-bordered" id="" width="100%" cellspacing="0">
-                  <thead>
-                    <tr>
-                      <th>Targeted Delivery Date</th>
-                      <th>Project</th>
-                      <th>Subscribers Impacted</th>
-                      <th>Data Applications Impacted</th>
-                      <th>Status</th>
-                      <th>Related Notification(s)</th>
-                    </tr>
-                  </thead>
-                  <tfoot>
-                    <tr>
-                       <th>Targeted Delivery Date</th>
-                      <th>Project</th>
-                      <th>Subscribers Impacted</th>
-                      <th>Data Applications Impacted</th>
-                      <th>Status</th>
-                      <th>Related Notification(s)</th>
-                    </tr>
-                  </tfoot>
-                  <tbody>
-                    <tr>
-                      <td>Q3 2019 <br>14 Sep 2019</td>
-                      <td>Tax Rules (Record X1) Connection Tag Enhancements to Enable Accurate Assessment of Taxes That Contain Non-standard Provisions</td>
-                      <td class="text-center"><i class="fas fa-check"></i></td>
-                      <td class="text-center"><i class="fas fa-check"></i></td>
-                      <td>Planned</td>
-                      <td>19-030</td>
-                    </tr>
-
-                    <tr>
-                      <td>Q3 2019 <br>22 Sep 2019</td>
-                      <td>FareManager – Rules – Pricing Safeguards verify location entry is valid for tariff geography</td>
-                      <td></td>
-                      <td></td>
-                      <td>Planned</td>
-                      <td></td>
-                    </tr>
-
-                    <tr>
-                      <td>Q3 2019 <br>22 Sep 2019</td>
-                      <td>FareManager Rules/Footnotes – Pricing Safeguards - Validate TSI with Tariff Geography</td>
-                      <td></td>
-                      <td></td>
-                      <td>Planned</td>
-                      <td></td>
-                    </tr>
-
-                    <tr>
-                      <td>Q3 2019 <br>22 Sep 2019</td>
-                      <td>Fare Builder Fares System Performance Improvements</td>
-                      <td></td>
-                      <td></td>
-                      <td>Planned</td>
-                      <td></td>
-                    </tr>
-
-                    <tr>
-                      <td>Q3 2019<br>25 Sep 2019</td>
-                      <td>API: Create Rules Maximum Stay (Category 7) Record 3 Data Table</td>
-                      <td></td>
-                      <td></td>
-                      <td>Planned</td>
-                      <td></td>
-                    </tr>
-
-                    <tr>
-                      <td>Q3 2019<br>29 Sep 2019</td>
-                      <td>Optional Services Security Table 183: Add Exclude Functionality and Expand values in Carrier field for Baggage Strategies</td>
-                      <td class="text-center"><i class="fas fa-check"></i></td>
-                      <td class="text-center"><i class="fas fa-check"></i></td>
-                      <td>Planned</td>
-                      <td>19-019, 19-068</td>
-                    </tr>
-
-                    <tr>
-                      <td>Q3 2019<br>29 Sep 2019</td>
-                      <td>Same Day International: Phase 1</td>
-                      <td class="text-center"><i class="fas fa-check"></i></td>
-                      <td class="text-center"><i class="fas fa-check"></i></td>
-                      <td>Planned</td>
-                      <td>19-014</td>
-                    </tr>
-
-                    <tr>
-                      <td>Q3 2019<br>30 Sep 2019</td>
-                      <td>Branded Fares: Expand Number of Brands Industry Adoption</td>
-                      <td class="text-center"><i class="fas fa-check"></i></td>
-                      <td></td>
-                      <td>Planned</td>
-                      <td>18-271</td>
-                    </tr>
-                    
-                  </tbody>
-                </table>
-              </div>
-              </div>
-            </div>
+          <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="solutionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Industry
+            </a>
+            <div class="dropdown-menu" aria-labelledby="solutionsDropdown">
+              <div class="row">
+               <div class="col-md-4">
+                <h6><a href="#">Retailing</a></h6>
+                <a class="dropdown-item" href="#">Next Generation Storefront (NGS)™</a>
+                <a class="dropdown-item" href="#">Routehappy Rich Content</a>
+                <a class="dropdown-item" href="#">Ancillaries</a>
+             </div>
+             <div class="col-md-4">
+                <h6><a href="#">Distribution</a></h6>
+                <a class="dropdown-item" href="#">NDC</a>
+                <a class="dropdown-item" href="#">Subscriptions</a>
+                <a class="dropdown-item" href="#">APIs</a>
+             </div>
+             <div class="col-md-4">
+                <h6><a href="#">Offers</a></h6>
+                <a class="dropdown-item" href="#">Pricing Data</a>
+                <a class="dropdown-item" href="#">Dynamic Pricing</a>
+                <a class="dropdown-item" href="#">Pricing Analysis</a>
+                <a class="dropdown-item" href="#">Orders &amp; Settlement</a>
+             </div>
           </div>
+       </li>
+
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="solutionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Resources
+         </a>
+         <div class="dropdown-menu" aria-labelledby="solutionsDropdown">
+           <div class="row">
+            <div class="col-md-4">
+             <h6><a href="#">Retailing</a></h6>
+             <a class="dropdown-item" href="#">Next Generation Storefront (NGS)™</a>
+             <a class="dropdown-item" href="#">Routehappy Rich Content</a>
+             <a class="dropdown-item" href="#">Ancillaries</a>
+          </div>
+          <div class="col-md-4">
+             <h6><a href="#">Distribution</a></h6>
+             <a class="dropdown-item" href="#">NDC</a>
+             <a class="dropdown-item" href="#">Subscriptions</a>
+             <a class="dropdown-item" href="#">APIs</a>
+          </div>
+          <div class="col-md-4">
+             <h6><a href="#">Offers</a></h6>
+             <a class="dropdown-item" href="#">Pricing Data</a>
+             <a class="dropdown-item" href="#">Dynamic Pricing</a>
+             <a class="dropdown-item" href="#">Pricing Analysis</a>
+             <a class="dropdown-item" href="#">Orders &amp; Settlement</a>
+          </div>
+       </div>
+    </li>
+
+    <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="#" id="solutionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Events
+      </a>
+      <div class="dropdown-menu" aria-labelledby="solutionsDropdown">
+        <div class="row">
+         <div class="col-md-4">
+          <h6><a href="#">Retailing</a></h6>
+          <a class="dropdown-item" href="#">Next Generation Storefront (NGS)™</a>
+          <a class="dropdown-item" href="#">Routehappy Rich Content</a>
+          <a class="dropdown-item" href="#">Ancillaries</a>
+       </div>
+       <div class="col-md-4">
+          <h6><a href="#">Distribution</a></h6>
+          <a class="dropdown-item" href="#">NDC</a>
+          <a class="dropdown-item" href="#">Subscriptions</a>
+          <a class="dropdown-item" href="#">APIs</a>
+       </div>
+       <div class="col-md-4">
+          <h6><a href="#">Offers</a></h6>
+          <a class="dropdown-item" href="#">Pricing Data</a>
+          <a class="dropdown-item" href="#">Dynamic Pricing</a>
+          <a class="dropdown-item" href="#">Pricing Analysis</a>
+          <a class="dropdown-item" href="#">Orders &amp; Settlement</a>
+       </div>
+    </div>
+ </li>
+
+ <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="solutionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Contact
+   </a>
+   <div class="dropdown-menu" aria-labelledby="solutionsDropdown">
+     <div class="row">
+      <div class="col-md-4">
+       <h6><a href="#">Retailing</a></h6>
+       <a class="dropdown-item" href="#">Next Generation Storefront (NGS)™</a>
+       <a class="dropdown-item" href="#">Routehappy Rich Content</a>
+       <a class="dropdown-item" href="#">Ancillaries</a>
+    </div>
+    <div class="col-md-4">
+       <h6><a href="#">Distribution</a></h6>
+       <a class="dropdown-item" href="#">NDC</a>
+       <a class="dropdown-item" href="#">Subscriptions</a>
+       <a class="dropdown-item" href="#">APIs</a>
+    </div>
+    <div class="col-md-4">
+       <h6><a href="#">Offers</a></h6>
+       <a class="dropdown-item" href="#">Pricing Data</a>
+       <a class="dropdown-item" href="#">Dynamic Pricing</a>
+       <a class="dropdown-item" href="#">Pricing Analysis</a>
+       <a class="dropdown-item" href="#">Orders &amp; Settlement</a>
+    </div>
+ </div>
+</li>
+
+</ul>
+<ul class="navbar-nav ml-auto">
+
+
+   <li class="nav-item dropdown no-arrow d-sm-none ml-auto">
+      <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <i class="fas fa-search fa-fw"></i>
+      </a>
+      <!-- Dropdown - Messages -->
+      <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+         <form class="form-inline mr-auto w-100 navbar-search">
+            <div class="input-group">
+               <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+               <div class="input-group-append">
+                  <button class="btn btn-primary" type="button">
+                     <i class="fas fa-search fa-sm"></i>
+                  </button>
+               </div>
             </div>
+         </form>
+      </div>
+   </li>
+   <!-- Nav Item - Alerts -->
+   <li class="nav-item dropdown no-arrow mx-1">
+      <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <i class="fas fa-bell fa-fw"></i>
+         <!-- Counter - Alerts -->
+         <span class="badge badge-danger badge-counter">3+</span>
+      </a>
+      <!-- Dropdown - Alerts -->
+      <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+         <h6 class="dropdown-header">
+            Alerts Center
+         </h6>
+         <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+               <div class="icon-circle bg-primary">
+                  <i class="fas fa-file-alt text-white"></i>
+               </div>
+            </div>
+            <div>
+               <div class="small text-gray-500">December 12, 2019</div>
+               <span class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nunc eget est euismod vestibulum at in justo. Mauris ornare mi quis augue dapibus bibendum.</span>
+            </div>
+         </a>
+         <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+      </div>
+   </li>
+   <!-- Nav Item - User Information -->
+   <li class="nav-item dropdown no-arrow">
+      <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <span class="mr-2 d-none d-lg-inline text-gray-600 small">Terry Bollea</span>
+         <img class="img-profile rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hollywood_Hulk_Hogan.jpg/220px-Hollywood_Hulk_Hogan.jpg">
+      </a>
+      <!-- Dropdown - User Information -->
+      <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+         <a class="dropdown-item" href="#">
+            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+            Profile
+         </a>
+         <a class="dropdown-item" href="#">
+            <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+            Settings
+         </a>
+         <a class="dropdown-item" href="#">
+            <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+            Activity Log
+         </a>
+         <div class="dropdown-divider"></div>
+         <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+            Logout
+         </a>
+      </div>
+   </li>
+</ul>
+</nav>
+<!-- End of Topbar -->
+<!-- Begin Page Content -->
+<div class="container-fluid">
+   <!-- Page Heading -->
+            <!--<div class="d-sm-flex align-items-center justify-content-between mb-0">
+               <ol class="breadcrumb col-md-12">
+                 <li class="breadcrumb-item active"><a href="../index.html">Customer Center Dashboard</a></li>
+               </ol>
+            </div>-->
+            <!-- Content Row -->
+            <div class="row">
+               <div class="col-xl-10 col-lg-8">
+                  <div class="card shadow mb-4">
+                     <div class="card-body">
+                        <!-- Topbar Search -->
+                        <form class="d-flex mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                           <div class="input-group">
+                              <input type="text" class="form-control" placeholder="Keywords" aria-label="Search" aria-describedby="basic-addon2">
 
+                           </div>
+                           <div class="input-group">
+                              <select id="edit-field-notification-month-target-id" name="field_notification_month_target_id" class="form-select form-control">
+                                 <option value="All" selected="selected">Type</option>
+                                 <option value="368">January 2019</option>
+                                 <option value="369">February 2019</option>
+                                 <option value="370">March 2019</option>
+                                 <option value="371">April 2019</option>
+                                 <option value="372">May 2019</option>
+                                 <option value="373">June 2019</option>
+                                 <option value="374">July 2019</option>
+                                 <option value="375">August 2019</option>
+                                 <option value="376">September 2019</option>
+                                 <option value="377">October 2019</option>
+                                 <option value="378">November 2019</option>
+                                 <option value="379">December 2019</option>
+                                 <option value="142">March 2018</option>
+                                 <option value="143">April 2018</option>
+                                 <option value="204">May 2018</option>
+                                 <option value="205">June 2018</option>
+                                 <option value="206">July 2018</option>
+                                 <option value="290">August 2018</option>
+                                 <option value="291">September 2018</option>
+                                 <option value="294">October 2018</option>
+                                 <option value="292">November 2018</option>
+                                 <option value="293">December 2018</option>
+                              </select>
+                           </div>
+                           <div class="input-group">
+                              <select data-drupal-selector="edit-field-notification-product-target-id" id="edit-field-notification-product-target-id" name="field_notification_product__target_id" class="form-select form-control">
+                                 <option value="All" selected="selected">Topic</option>
+                                 <option value="79">Ancillaries &amp; Fees Data</option>
+                                 <option value="82">Data Platform Services</option>
+                                 <option value="78">Fares &amp; Rules Data</option>
+                                 <option value="77">NDC Solutions</option>
+                                 <option value="76">Revenue Accounting</option>
+                                 <option value="75">Revenue Management &amp; Pricing</option>
+                                 <option value="80">Tax Data</option>
+                              </select>
+                           </div>
+                           <!--<div class="input-group">
+                              <select data-drupal-selector="edit-field-notification-type-target-id" id="edit-field-notification-type-target-id" name="field_notification_type_target_id" class="form-select form-control">
+                                 <option value="All" selected="selected">User Level</option>
+                                 <option value="65">Events</option>
+                                 <option value="67">Feedback Needed</option>
+                                 <option value="68">Important</option>
+                                 <option value="69">News</option>
+                                 <option value="66">Product Updates</option>
+                              </select>
+                           </div>
 
+                           <div class="input-group">
+                              <select data-drupal-selector="edit-field-notification-type-target-id" id="edit-field-notification-type-target-id" name="field_notification_type_target_id" class="form-select form-control">
+                                 <option value="All" selected="selected">Function</option>
+                                 <option value="65">Events</option>
+                                 <option value="67">Feedback Needed</option>
+                                 <option value="68">Important</option>
+                                 <option value="69">News</option>
+                                 <option value="66">Product Updates</option>
+                              </select>
+                           </div>
+                           <div class="input-group">
+                              <select data-drupal-selector="edit-field-notification-type-target-id" id="edit-field-notification-type-target-id" name="field_notification_type_target_id" class="form-select form-control">
+                                 <option value="All" selected="selected">Status</option>
+                                 <option value="65">Events</option>
+                                 <option value="67">Feedback Needed</option>
+                                 <option value="68">Important</option>
+                                 <option value="69">News</option>
+                                 <option value="66">Product Updates</option>
+                              </select>
+                           </div>-->
+                           <div class="form-group search">
+                              <a href="search-results.html" class="btn btn-primary">
+                                Search
+                                <i class="fas fa-search fa-sm"></i>
+                             </a>
+                          </div>
+                       </form>
+                    </div>
+                 </div>
+                 <div class="card shadow mb-4">
+                  <!-- Card Header - Dropdown -->
+                  <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                     <h6 class="m-0 font-weight-bold text-primary">Notifications</h6>
+                     <div class="dropdown no-arrow">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                           <div class="dropdown-header">Dropdown Header:</div>
+                           <a class="dropdown-item" href="#">Action</a>
+                           <a class="dropdown-item" href="#">Another action</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Card Body -->
+                  <div class="card-body notifications">
+                     <div class="row">
+                        <div class="col-md-2 badges">
+                           <span class="badge badge-secondary inverse d-block">20 AUG 2019 | 19-152</span>
+                           <span class="badge badge-success inverse d-block">Product Updates</span>
+                        </div>
+                        <div class="col-md-9">
+                           <h6><a href="#">New Passenger Type Code</a></h6>
+                           <p>At industry request, ATPCO is implementing a new private Passenger Type Code, CET, effective immediately. </p>
+                           <span class="badge badge-info inverse">Fares & Rules Data</span>
+                        </div>
+                     </div>
+                     <hr>
+                     <div class="row">
+                        <div class="col-md-2 badges">
+                           <span class="badge badge-secondary inverse d-block">20 AUG 2019 | 19-152</span>
+                           <span class="badge badge-success inverse d-block">Product Updates</span>
+                        </div>
+                        <div class="col-md-9">
+                           <h6><a href="#">IATA Weighted Mileage Involuntary Reroute Settlement Rates for September 2019</a></h6>
+                           <p>In accordance with ACH Communications No. 142 of 13 August 2019, the IATA Weighted Mileage Involuntary Reroute Settlement Rates were updated to apply to new sectors on a bilateral basis.</p>
+                           <span class="badge badge-info inverse">Ancillaries & Fees Data</span> <span class="badge badge-info inverse">Revenue Management & Pricing</span>
+                        </div>
+                     </div>
+                     <hr>
+                     <div class="row">
+                        <div class="col-md-2 badges">
+                           <span class="badge badge-secondary inverse d-block">20 AUG 2019 | 19-152</span>
+                           <span class="badge badge-success inverse d-block">Product Updates</span>
+                        </div>
+                        <div class="col-md-9">
+                           <h6><a href="#">New Passenger Type Code</a></h6>
+                           <p>At industry request, ATPCO is implementing a new private Passenger Type Code, CET, effective immediately. </p>
+                           <span class="badge badge-info inverse">Fares & Rules Data</span>
+                        </div>
+                     </div>
+                     <hr>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="card shadow mb-4">
+                        <!-- Card Header - Dropdown -->
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                           <h6 class="m-0 font-weight-bold text-primary">Product Development Plan Recent Updates</h6>
+                           <div class="dropdown no-arrow">
+                              <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                              </a>
+                              <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                                 <div class="dropdown-header">Dropdown Header:</div>
+                                 <a class="dropdown-item" href="#">Action</a>
+                                 <a class="dropdown-item" href="#">Another action</a>
+                                 <div class="dropdown-divider"></div>
+                                 <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Card Body -->
+                        <div class="card-body">
+                           <div class="col-md-12">
+                              <div class="input-group mb-3">
+                                 <input type="text" class="form-control" placeholder="Search the Product Development Plan" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                 <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button">Search</button>
+                                 </div>
+                              </div>
+                              <hr>
+                              <div class="row">
+                                 <div class="col-md-3">
+                                    <span class="badge badge-secondary inverse d-block">
+                                    Q3 2019</span>
+                                 </div>
+                                 <div class="col-md-9">
+                                    Tax Rules (Record X1) Connection Tag Enhancements to Enable Accurate Assessment of Taxes That Contain Non-standard Provisions
+                                 </div>
+                              </div>
+                              <hr>
+                              <div class="row">
+                                 <div class="col-md-3">
+                                    <span class="badge badge-secondary inverse d-block">Q3 2019</span>
+                                 </div>
+                                 <div class="col-md-9">
+                                    FareManager – Rules – Pricing Safeguards verify location entry is valid for tariff geography
+                                 </div>
+                              </div>
+                              <hr>
+                              <div class="row">
+                                 <div class="col-md-3">
+                                    <span class="badge badge-secondary inverse d-block">Q3 2019</span>
+                                 </div>
+                                 <div class="col-md-9">
+                                    FareManager Rules/Footnotes – Pricing Safeguards - Validate TSI with Tariff Geography
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="card shadow mb-4">
+                        <!-- Card Header - Dropdown -->
+                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                           <h6 class="m-0 font-weight-bold text-primary">Appendices Recent Updates</h6>
+                           <div class="dropdown no-arrow">
+                              <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                              </a>
+                              <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                                 <div class="dropdown-header">Dropdown Header:</div>
+                                 <a class="dropdown-item" href="#">Action</a>
+                                 <a class="dropdown-item" href="#">Another action</a>
+                                 <div class="dropdown-divider"></div>
+                                 <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Card Body -->
+                        <div class="card-body">
+                              <!--<form class="views-exposed-form bef-exposed-form" data-drupal-selector="views-exposed-form-product-development-plan-with-filter-block-1" action="/generate/csv" method="get" id="views-exposed-form-product-development-plan-with-filter-block-1" accept-charset="UTF-8">
+                                 <div class="container">
+                                  <div class="row">
+                                    <div class="form-group col-md-2">
+                                      <select  id="edit-field-pdp-quarters-target-id" name="field_pdp_quarters_target_id" class="form-select form-control"><option value="All" selected="selected">Quarter</option><option value="329">Q1</option><option value="330">Q2</option><option value="331">Q3</option><option value="332">Q4</option></select>
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                      <select data-drupal-selector="edit-field-pdp-year-only-value" id="edit-field-pdp-year-only-value" name="field_pdp_year_only_value" class="form-select form-control"><option value="All" selected="selected">Year</option><option value="1">2018</option><option value="2">2019</option><option value="3">2020</option></select>
+                                    </div>
+                                 
+                                    <div class="form-group col-md-2">
+                                      <select data-drupal-selector="edit-field-status-target-id" id="edit-field-status-target-id" name="field_status_target_id" class="form-select form-control"><option value="All">Status</option><option value="43">Implemented</option><option value="44">Installed</option><option value="42" selected="selected">Planned</option></select>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                      <select data-drupal-selector="edit-field-subscriber-impact-value" id="edit-field-subscriber-impact-value" name="field_subscriber_impact_value" class="form-control"><option value="All" selected="selected">Subscriber Impact</option><option value="1">Yes</option><option value="2">None</option></select>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                      <select data-drupal-selector="edit-field-pdp-data-app-impact-value" id="edit-field-pdp-data-app-impact-value" name="field_pdp_data_app_impact_value" class="form-control"><option value="All" selected="selected">Data App Impact</option><option value="Data Application Impacted">Yes</option><option value="">None</option></select>
+                                   </div>-->
+                                   <div class="col-md-12">
+                                    <div class="input-group mb-3">
+                                       <input type="text" class="form-control" placeholder="Search Appendices" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                       <div class="input-group-append">
+                                          <button class="btn btn-primary" type="button">Search</button>
+                                       </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                       <div class="col-md-3">
+                                          <span class="badge badge-secondary inverse d-block">
+                                          Q3 2019</span>
+                                       </div>
+                                       <div class="col-md-9">
+                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a viverra magna.
+                                       </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                       <div class="col-md-3">
+                                          <span class="badge badge-secondary inverse d-block">Q3 2019</span>
+                                       </div>
+                                       <div class="col-md-9">
+                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a viverra magna. 
+                                       </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                       <div class="col-md-3">
+                                          <span class="badge badge-secondary inverse d-block">Q3 2019</span>
+                                       </div>
+                                       <div class="col-md-9">
+                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a viverra magna. Maecenas quis nisi sed.
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="card shadow mb-4">
+                              <!-- Card Header - Dropdown -->
+                              <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                 <h6 class="m-0 font-weight-bold text-primary">New &amp; Updated Training</h6>
+                                 <div class="dropdown no-arrow">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                                       <div class="dropdown-header">Dropdown Header:</div>
+                                       <a class="dropdown-item" href="#">Action</a>
+                                       <a class="dropdown-item" href="#">Another action</a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- Card Body -->
+                              <div class="card-body">
+                                 <div class="col-md-12">
+                                    <div class="input-group mb-3">
+                                       <input type="text" class="form-control" placeholder="Search Training" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                       <div class="input-group-append">
+                                          <button class="btn btn-primary" type="button">Search</button>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-md-3">
+                                          <span class="badge badge-secondary inverse d-block">
+                                          Q3 2019</span>
+                                       </div>
+                                       <div class="col-md-9">
+                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a viverra magna. Maecenas quis nisi sed libero placerat facilisis.
+                                       </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                       <div class="col-md-3">
+                                          <span class="badge badge-secondary inverse d-block">Q3 2019</span>
+                                       </div>
+                                       <div class="col-md-9">
+                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a viverra magna. Maecenas quis nisi sed.
+                                       </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                       <div class="col-md-3">
+                                          <span class="badge badge-secondary inverse d-block">Q3 2019</span>
+                                       </div>
+                                       <div class="col-md-9">
+                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a viverra magna. Maecenas quis nisi sed.
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="card shadow mb-4">
+                              <!-- Card Header - Dropdown -->
+                              <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                 <h6 class="m-0 font-weight-bold text-primary">Recently Updated Subscription Documentation</h6>
+                                 <div class="dropdown no-arrow">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                                       <div class="dropdown-header">Dropdown Header:</div>
+                                       <a class="dropdown-item" href="#">Action</a>
+                                       <a class="dropdown-item" href="#">Another action</a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- Card Body -->
+                              <div class="card-body">
 
-            <!-- Status -->
-            <div class="col-xl-2 col-lg-3">
-              <div class="card shadow mb-3">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                 <div class="col-md-12">
+                                    <div class="input-group mb-3">
+                                       <input type="text" class="form-control" placeholder="Search Subscription Documentation" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                       <div class="input-group-append">
+                                          <button class="btn btn-primary" type="button">Search</button>
+                                       </div>
+                                    </div>
+                                    <div class="row">
+                                       <div class="col-md-3">
+                                          <span class="badge badge-secondary inverse d-block">
+                                          Q3 2019</span>
+                                       </div>
+                                       <div class="col-md-9">
+                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a viverra magna. Maecenas quis nisi sed libero placerat facilisis.
+                                       </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                       <div class="col-md-3">
+                                          <span class="badge badge-secondary inverse d-block">Q3 2019</span>
+                                       </div>
+                                       <div class="col-md-9">
+                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a viverra magna. Maecenas quis nisi sed.
+                                       </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                       <div class="col-md-3">
+                                          <span class="badge badge-secondary inverse d-block">Q3 2019</span>
+                                       </div>
+                                       <div class="col-md-9">
+                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a viverra magna. Maecenas quis nisi sed.
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <div class="card shadow mb-4">
+                              <!-- Card Header - Dropdown -->
+                              <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                 <h6 class="m-0 font-weight-bold text-primary">Events</h6>
+                                 <div class="dropdown no-arrow">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                                       <div class="dropdown-header">Dropdown Header:</div>
+                                       <a class="dropdown-item" href="#">Action</a>
+                                       <a class="dropdown-item" href="#">Another action</a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- Card Body -->
+                              <div class="card-body">
+
+                                 <div class="col-md-12">
+                                    <div class="input-group mb-3">
+                                       <input type="text" class="form-control" placeholder="Search Events" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                       <div class="input-group-append">
+                                          <button class="btn btn-primary" type="button">Search</button>
+                                       </div>
+                                    </div>
+                                    <table class="table">
+                                     <thead>
+                                       <tr>
+                                        <th id="view-title-table-column" class="views-field views-field-title" scope="col"><a href="?keys=&amp;field_type_event_target_id=All&amp;month=all&amp;order=title&amp;sort=asc" title="sort by Event">Event</a></th>
+                                        <th id="view-field-event-start-table-column" class="views-field views-field-field-event-start" scope="col"><a href="?keys=&amp;field_type_event_target_id=All&amp;month=all&amp;order=field_event_start&amp;sort=asc" title="sort by Date(s)">Date(s)</a></th>
+                                        <th id="view-field-event-start-1-table-column" class="views-field views-field-field-event-start-1" scope="col"><a href="?keys=&amp;field_type_event_target_id=All&amp;month=all&amp;order=field_event_start_1&amp;sort=asc" title="sort by Year">Year</a></th>
+                                        <th id="view-field-type-event-table-column" class="views-field views-field-field-type-event" scope="col"><a href="?keys=&amp;field_type_event_target_id=All&amp;month=all&amp;order=field_type_event&amp;sort=asc" title="sort by Type">Type</a></th>
+                                        <th id="view-field-event-address-table-column" class="views-field views-field-field-event-address" scope="col"><a href="?keys=&amp;field_type_event_target_id=All&amp;month=all&amp;order=field_event_address&amp;sort=asc" title="sort by Location">Location</a></th>
+                                     </tr>
+                                  </thead>
+                                  <tbody>
+                                   <tr>
+                                      <td headers="view-title-table-column" class="views-field views-field-title"><a href="/events/aac-sept-2019" hreflang="en">ATPCO Advisory Council (AAC)</a>          </td>
+                                      <td headers="view-field-event-start-table-column" class="views-field views-field-field-event-start">30 Sep - 30 Sep          </td>
+                                      <td headers="view-field-event-start-1-table-column" class="views-field views-field-field-event-start-1">2019          </td>
+                                      <td headers="view-field-type-event-table-column" class="views-field views-field-field-type-event">ATPCO Conference          </td>
+                                      <td headers="view-field-event-address-table-column" class="views-field views-field-field-event-address">Washington, DC, Gaylord National Resort &amp; Convention Center          </td>
+                                   </tr>
+                                   <tr>
+                                      <td headers="view-title-table-column" class="views-field views-field-title"><a href="/event/elevate-2019" hreflang="en">Elevate 2019</a>          </td>
+                                      <td headers="view-field-event-start-table-column" class="views-field views-field-field-event-start">01 Oct - 02 Oct          </td>
+                                      <td headers="view-field-event-start-1-table-column" class="views-field views-field-field-event-start-1">2019          </td>
+                                      <td headers="view-field-type-event-table-column" class="views-field views-field-field-type-event">ATPCO Conference          </td>
+                                      <td headers="view-field-event-address-table-column" class="views-field views-field-field-event-address">Washington, DC Gaylord National Resort &amp; Convention Center          </td>
+                                   </tr>
+                                   <tr>
+                                      <td headers="view-title-table-column" class="views-field views-field-title"><a href="/events/industry-elevate" hreflang="en">Industry Elevate</a>          </td>
+                                      <td headers="view-field-event-start-table-column" class="views-field views-field-field-event-start">02 Oct - 02 Oct          </td>
+                                      <td headers="view-field-event-start-1-table-column" class="views-field views-field-field-event-start-1">2019          </td>
+                                      <td headers="view-field-type-event-table-column" class="views-field views-field-field-type-event">ATPCO Conference          </td>
+                                      <td headers="view-field-event-address-table-column" class="views-field views-field-field-event-address">Washington, DC Gaylord National Resort &amp; Convention Center          </td>
+                                   </tr>
+                                   <tr>
+                                      <td headers="view-title-table-column" class="views-field views-field-title"><a href="/events/travelconnect-2019" hreflang="en">TravelConnect 2019</a>          </td>
+                                      <td headers="view-field-event-start-table-column" class="views-field views-field-field-event-start">03 Oct - 04 Oct          </td>
+                                      <td headers="view-field-event-start-1-table-column" class="views-field views-field-field-event-start-1">2019          </td>
+                                      <td headers="view-field-type-event-table-column" class="views-field views-field-field-type-event">Industry Event          </td>
+                                      <td headers="view-field-event-address-table-column" class="views-field views-field-field-event-address">Washington, DC          </td>
+                                   </tr>
+                                   <tr>
+                                      <td headers="view-title-table-column" class="views-field views-field-title"><a href="/events/pricing-data-working-group-oct-2019" hreflang="en">Pricing Data Working Group</a>          </td>
+                                      <td headers="view-field-event-start-table-column" class="views-field views-field-field-event-start">03 Oct - 04 Oct          </td>
+                                      <td headers="view-field-event-start-1-table-column" class="views-field views-field-field-event-start-1">2019          </td>
+                                      <td headers="view-field-type-event-table-column" class="views-field views-field-field-type-event">Working Group          </td>
+                                      <td headers="view-field-event-address-table-column" class="views-field views-field-field-event-address">ATPCO Headquarters          </td>
+                                   </tr>
+                                   <tr>
+                                      <td headers="view-title-table-column" class="views-field views-field-title"><a href="/events/iata-air" hreflang="en">IATA Airline Industry Retailing Symposium (AIR)</a>          </td>
+                                      <td headers="view-field-event-start-table-column" class="views-field views-field-field-event-start">29 Oct - 31 Oct          </td>
+                                      <td headers="view-field-event-start-1-table-column" class="views-field views-field-field-event-start-1">2019          </td>
+                                      <td headers="view-field-type-event-table-column" class="views-field views-field-field-type-event">Industry Event          </td>
+                                      <td headers="view-field-event-address-table-column" class="views-field views-field-field-event-address">Bangkok, Thailand          </td>
+                                   </tr>
+                                   <tr>
+                                      <td headers="view-title-table-column" class="views-field views-field-title"><a href="/event/pss-2019" hreflang="en">PSS Conference 2019</a>          </td>
+                                      <td headers="view-field-event-start-table-column" class="views-field views-field-field-event-start">12 Nov - 14 Nov          </td>
+                                      <td headers="view-field-event-start-1-table-column" class="views-field views-field-field-event-start-1">2019          </td>
+                                      <td headers="view-field-type-event-table-column" class="views-field views-field-field-type-event">Industry Event          </td>
+                                      <td headers="view-field-event-address-table-column" class="views-field views-field-field-event-address">London, England          </td>
+                                   </tr>
+                                   <tr>
+                                      <td headers="view-title-table-column" class="views-field views-field-title"><a href="/events/phocuswright-conference-2019" hreflang="en">Phocuswright Conference 2019</a>          </td>
+                                      <td headers="view-field-event-start-table-column" class="views-field views-field-field-event-start">19 Nov - 21 Nov          </td>
+                                      <td headers="view-field-event-start-1-table-column" class="views-field views-field-field-event-start-1">2019          </td>
+                                      <td headers="view-field-type-event-table-column" class="views-field views-field-field-type-event">Industry Event          </td>
+                                      <td headers="view-field-event-address-table-column" class="views-field views-field-field-event-address">Hollywood, FL          </td>
+                                   </tr>
+                                </tbody>
+                             </table>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+
+              </div>
+           </div>
+           <!-- Status -->
+           <div class="col-xl-2 col-lg-3">
+            <div class="card shadow mb-3">
+               <!-- Card Header - Dropdown -->
+               <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                   <h6 class="m-0 font-weight-bold text-primary">Status</h6>
                   <div class="dropdown no-arrow">
-                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Dropdown Header:</div>
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                     </a>
+                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                        <div class="dropdown-header">Dropdown Header:</div>
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                     </div>
                   </div>
-                </div>
-                <!-- Card Body -->
-                <div class="card-body text-center">
+               </div>
+               <!-- Card Body -->
+               <div class="card-body text-center">
                   <a href="#" class="btn btn-circle btn-success"><img src="img/system-working.svg" width="32"></a>
                   <p><small>All systems are available.</small></p>
-                </div>
-              </div>
-              <div class="card shadow mb-3">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Applications</h6>
+               </div>
+            </div>
+            <div class="card shadow mb-3">
+               <!-- Card Header - Dropdown -->
+               <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Application</h6>
                   <div class="dropdown no-arrow">
-                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Dropdown Header:</div>
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                     <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                     </a>
+                     <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                        <div class="dropdown-header">Dropdown Header:</div>
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                     </div>
                   </div>
-                </div>
-                <!-- Card Body -->
-                <div class="card-body text-center">
+               </div>
+               <!-- Card Body -->
+               <div class="card-body text-center">
                   <a href="#" class="btn btn-circle teal"><i class="fas fa-plane"></i></a>
                   <p>FareManager</p>
-                  <hr>
-                  <a href="#" class="btn btn-circle pink"><i class="fas fa-network-wired"></i></a>
-                  <p>FareManager eConnect</p>
-                </div>
-              </div>
-          
-
-
-             <div class="card shadow mb-3">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">PDP Roadmap</h6>
-                  <div class="dropdown no-arrow">
-                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Dropdown Header:</div>
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card Body -->
-                <div class="card-body text-center">
-                  <p><small>Current Milestone:</small></p>
-                  <a href="#" class="btn btn-circle btn-success">3</a>
-                </div>
-              </div>
-
+               </div>
             </div>
-
-
-
-        <div class="row">
-
-          
-
-        <!-- Product Development -->
-        
-
-
-
-
+                  <!--
+                  <div class="card shadow mb-3">
+                     
+                     <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                        <h6 class="m-0 font-weight-bold text-primary">PDP Roadmap</h6>
+                        <div class="dropdown no-arrow">
+                           <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                           </a>
+                           <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                              <div class="dropdown-header">Dropdown Header:</div>
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                           </div>
+                        </div>
+                     </div>
+               
+                     <div class="card-body text-center">
+                        <p><small>Current Milestone:</small></p>
+                        <a href="#" class="btn btn-circle btn-success">3</a>
+                     </div>
+                  </div>
+               -->
+            </div>
+            <div class="row">
+               <!-- Product Development -->
+            </div>
+            <!-- /.container-fluid -->
+         </div>
+         <!-- End of Main Content -->
+         <!-- Footer -->
+         <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+               <div class="copyright text-center my-auto">
+                  <span></span>
+               </div>
+            </div>
+         </footer>
+         <!-- End of Footer -->
       </div>
-
-
-
-
-
-      <!-- /.container-fluid -->
-
-    </div>
-    <!-- End of Main Content -->
-
-    <!-- Footer -->
-    <footer class="sticky-footer bg-white">
-      <div class="container my-auto">
-        <div class="copyright text-center my-auto">
-          <span></span>
-        </div>
+      <!-- End of Content Wrapper -->
+   </div>
+   <!-- End of Page Wrapper -->
+   <!-- Scroll to Top Button-->
+   <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+   </a>
+   <!-- Logout Modal-->
+   <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+               <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+               </button>
+            </div>
+            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+            <div class="modal-footer">
+               <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+               <a class="btn btn-primary" href="login.html">Logout</a>
+            </div>
+         </div>
       </div>
-    </footer>
-    <!-- End of Footer -->
-
-  </div>
-  <!-- End of Content Wrapper -->
-
-</div>
-<!-- End of Page Wrapper -->
-
-<!-- Scroll to Top Button-->
-<a class="scroll-to-top rounded" href="#page-top">
-  <i class="fas fa-angle-up"></i>
-</a>
-
-<!-- Logout Modal-->
-<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">×</span>
-        </button>
-      </div>
-      <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-      <div class="modal-footer">
-        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-        <a class="btn btn-primary" href="login.html">Logout</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Bootstrap core JavaScript-->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<!-- Core plugin JavaScript-->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!-- Custom scripts for all pages-->
-<script src="js/sb-admin-2.min.js"></script>
-
-  <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-  <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
-  <!-- Page level custom scripts -->
-  <script src="js/demo/datatables-demo.js"></script>
-
+   </div>
+   <!-- Bootstrap core JavaScript-->
+   <script src="vendor/jquery/jquery.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <!-- Core plugin JavaScript-->
+   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+   <!-- Custom scripts for all pages-->
+   <script src="js/sb-admin-2.min.js"></script>
+   <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+   <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+   <!-- Page level custom scripts -->
+   <script src="js/demo/datatables-demo.js"></script>
 </body>
-
 </html>

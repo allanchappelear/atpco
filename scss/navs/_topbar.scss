@@ -119,13 +119,30 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        color: $gray-400;
+        //color: $gray-400;
         &:hover {
-          color: $gray-500;
+          //color: $gray-500;
         }
         &:active {
-          color: $gray-600;
+          //color: $gray-600;
         }
+      }
+    }
+  }
+}
+
+.main-menu-nav {
+  .nav-item  {
+    .nav-link {
+      color: $teal; 
+      text-transform: uppercase;
+      letter-spacing: .125em; 
+      font-weight: 900;
+      font-size: .8em;
+    }
+    &.dropdown {
+      :after {
+        display: none;  
       }
     }
   }

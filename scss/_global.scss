@@ -19,6 +19,24 @@ a {
     outline: none;
   }
 }
+h1 {
+  color: $blue;
+  font-size: 2em;
+  font-weight: 700;
+  border-bottom: 1px solid $gray-500;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  span.meta {
+    font-size: .5em;
+    display: block;
+    color: $gray-800;
+  }
+}
+h3 {
+  font-size: 1.4em;
+  color: $teal;
+  font-weight: 700;
+}
 
 // Main page wrapper
 #wrapper {
@@ -64,11 +82,16 @@ a {
   }
 }
 .form-control, select {
-  border-radius: 30px;
+  border-radius: 0;
+}
+.badge {
+  border-radius: 0;
 }
 .badges {
+
   .badge {
     margin-bottom: .5em;
+
   }
 }
 select {
@@ -89,10 +112,6 @@ select {
     font-size: 1.1rem;
     font-weight: 600;
   }
-  p {
-    font-size: 0.9rem;
-  }
-
 }
 
 .badge.inverse {
@@ -101,9 +120,9 @@ select {
   color: $gray-600;
 }
 .badge-info.inverse {
-  background: $teal;
-  color: white;
-  border: 0;
+  background: none;
+  border: 1px solid $teal;
+  color: $teal;
 }
 .badge-success.inverse {
   background: $green;
@@ -135,6 +154,11 @@ select {
   margin-bottom: 1em;
   padding: 1em;
   border-bottom: 1px solid $gray-200;
+  .meta {
+    span {
+      margin-right: 1em;
+    }
+  }
 
 }
 .recomended {
@@ -165,6 +189,19 @@ thead {
     .col-sm-12 {
       height: 40vh;
       overflow: scroll-y;
+    }
+  }
+}
+
+.navbar-search {
+  .input-group {
+    margin-right: 1em;
+    &.search-input {
+    }
+  }
+  .search {
+    .btn {
+      width: 120px;
     }
   }
 }
