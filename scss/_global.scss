@@ -87,12 +87,22 @@ h3 {
 .badge {
   border-radius: 0;
 }
+
 .badges {
 
   .badge {
     margin-bottom: .5em;
 
   }
+}
+.badge-orange {
+  border: 1px solid $orange;
+  color: $orange;
+}
+
+.badge-pink {
+  border: 1px solid $pink;
+  color: $pink;
 }
 select {
     -webkit-appearance: none;
@@ -125,9 +135,8 @@ select {
   color: $teal;
 }
 .badge-success.inverse {
-  background: $green;
-  border: 0;
-  color: white;
+  border: 1px solid $green;
+    color: $green;
 }
 
 .class-hero {
