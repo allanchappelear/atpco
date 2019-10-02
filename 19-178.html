@@ -18,98 +18,81 @@
   <div id="wrapper">
     <!-- Sidebar -->
     <ul class="navbar-nav sidebar accordion" id="accordionSidebar">
-      <!-- Sidebar - Brand -->
-      <li style="list-style: none; display: inline">
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-text mx-3" id="logo"><img src="img/logo.png"></div></a> <!-- Divider -->
-        <hr class="sidebar-divider my-0">
-        <!-- Nav Item - Dashboard -->
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html"><i class="fas fa-fw fa-tachometer-alt"></i> <span>Dashboard</span></a>
-      </li><!-- Divider -->
-      <li style="list-style: none; display: inline">
-        <hr class="sidebar-divider">
-        <!-- Heading -->
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><i class="far fa-flag"></i> <span>Notifications</span></a>
-      </li>
-      <li style="list-style: none; display: inline">
-        <hr class="sidebar-divider">
-      </li>
-      <li class="nav-item">
-        <a aria-controls="collapseResources" aria-expanded="true" class="nav-link collapsed" data-target="#collapseResources" data-toggle="collapse" href="#"><i class="fas fa-cogs"></i> <span>Resources</span></a>
-        <div aria-labelledby="collapseResources" class="collapse" id="collapseResources">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <div aria-labelledby="headingTwo" class="collapse show" data-parent="#headingResources" id="resources-sub" style="">
-              <div class="py-2 collapse-inner rounded">
-                <!--<h6 class="collapse-header">Custom Components:</h6>-->
-                <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a> <a class="collapse-item" href="#">Answer Table Subscriptions</a> <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a> <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a> <a class="collapse-item" href="#">Automated Rules Upload</a> <a class="collapse-item" href="#">Fares Download Service</a> <a class="collapse-item" href="#">Fare Rule Output Product (FROP)</a> <a class="collapse-item" href="#">Fares Subscriptions</a> <a class="collapse-item" href="#">Fares Upload Service</a> <a class="collapse-item" href="#">Footnotes Upload Service</a> <a class="collapse-item" href="#">Full Map Routings Subscriptions</a> <a class="collapse-item" href="#">Full Map Routings – Upload</a> <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions</a> <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions</a> <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a> <a class="collapse-item" href="#">Service Fees Subscription Documentation</a> <a class="collapse-item" href="#">Supporting Data Subscription Service</a> <a class="collapse-item" href="#">Tax Collection and Distribution</a> <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
+         <!-- Sidebar - Brand -->
+         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <div class="sidebar-brand-text mx-3" id="logo"><img src="img/logo.png"></div>
+         </a>
+         <!-- Divider -->
+         <hr class="sidebar-divider my-0">
+         <!-- Nav Item - Dashboard -->
+         <li class="nav-item active">
+            <a class="nav-link" href="index.html">
+               <i class="fas fa-fw fa-tachometer-alt"></i>
+               <span>Dashboard</span></a>
+            </li>
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+            <!-- Heading -->
+            <li class="nav-item">
+               <a class="nav-link" href="#">
+                  <i class="far fa-flag"></i>
+                  <span>Notifications</span>
+               </a>
+            </li>
+            <hr class="sidebar-divider">
+            <li class="nav-item">
+               <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseResources" aria-expanded="true" aria-controls="collapseResources">
+                  <i class="fas fa-cogs"></i>
+                  <span>Solution Documentation</span>
+               </a>
+               <div id="collapseResources" class="collapse" aria-labelledby="collapseResources" >
+                  <div class="bg-white py-2 collapse-inner rounded">
+                     <div id="resources-sub" class="collapse show" aria-labelledby="headingTwo" data-parent="#headingResources" style="">
+                      <div class="py-2 collapse-inner rounded">
+                       <!--<h6 class="collapse-header">Custom Components:</h6>-->
+                       <a class="collapse-item" href="#">Distribution</a>
+                       <a class="collapse-item" href="#">Fees</a>
+                       <a class="collapse-item" href="#">Pricing Data</a>
+                       <a class="collapse-item" href="#">Retail</a>
+                       <a class="collapse-item" href="#">Taxes</a>
+                    </div>
+                 </div>
               </div>
+           </div>
+        </li>
+        <hr class="sidebar-divider">
+        <li class="nav-item">
+         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+            <i class="far fa-file-code"></i>
+            <span>Other Resources</span>
+         </a>
+         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+               <a class="collapse-item" href="#">Glossary</a>
+               <a class="collapse-item" href="#">Support Documents</a>
+               <a class="collapse-item" href="#">User Guides</a>
+               <a class="collapse-item" href="#">Forms</a>
+               <a class="collapse-item" href="#">Gold Release</a>
             </div>
-          </div>
-        </div>
+         </div>
       </li>
-      <li style="list-style: none; display: inline">
-        <hr class="sidebar-divider">
-      </li>
+      <hr class="sidebar-divider">
       <li class="nav-item">
-        <a aria-controls="collapseUtilities" aria-expanded="true" class="nav-link collapsed" data-target="#collapseUtilities" data-toggle="collapse" href="#"><i class="far fa-file-code"></i> <span>Product Development</span></a>
-        <div aria-labelledby="headingUtilities" class="collapse" data-parent="#accordionSidebar" id="collapseUtilities">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a> <a class="collapse-item" href="#">Answer Table Subscriptions</a> <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a> <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a> <a class="collapse-item" href="#">Automated Rules Upload</a> <a class="collapse-item" href="#">Fares Download Service</a> <a class="collapse-item" href="#">Fare Rule Output Product (FROP)</a> <a class="collapse-item" href="#">Fares Subscriptions</a> <a class="collapse-item" href="#">Fares Upload Service</a> <a class="collapse-item" href="#">Footnotes Upload Service</a> <a class="collapse-item" href="#">Full Map Routings Subscriptions</a> <a class="collapse-item" href="#">Full Map Routings – Upload</a> <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions</a> <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions</a> <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a> <a class="collapse-item" href="#">Service Fees Subscription Documentation</a> <a class="collapse-item" href="#">Supporting Data Subscription Service</a> <a class="collapse-item" href="#">Tax Collection and Distribution</a> <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
-          </div>
-        </div>
+         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseProductDev" aria-expanded="true" aria-controls="collapseUtilities">
+            <i class="fas fa-chalkboard"></i>
+            <span>Product Development</span>
+         </a>
+         <div id="collapseProductDev" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+               <a class="collapse-item" href="#">Business Requests</a>
+               <a class="collapse-item" href="#">Industry Feedback</a>
+               <a class="collapse-item" href="#">Product Development Plan</a>
+               <a class="collapse-item" href="#">Subscriber Readiness</a>
+            </div>
+         </div>
       </li>
-      <li style="list-style: none; display: inline">
-        <hr class="sidebar-divider">
-      </li>
-      <li class="nav-item">
-        <a aria-controls="collapseUtilities" aria-expanded="true" class="nav-link collapsed" data-target="#collapseUtilities" data-toggle="collapse" href="#"><i class="fas fa-chalkboard"></i> <span>Training</span></a>
-        <div aria-labelledby="headingUtilities" class="collapse" data-parent="#accordionSidebar" id="collapseUtilities">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a> <a class="collapse-item" href="#">Answer Table Subscriptions</a> <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a> <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a> <a class="collapse-item" href="#">Automated Rules Upload</a> <a class="collapse-item" href="#">Fares Download Service</a> <a class="collapse-item" href="#">Fare Rule Output Product (FROP)</a> <a class="collapse-item" href="#">Fares Subscriptions</a> <a class="collapse-item" href="#">Fares Upload Service</a> <a class="collapse-item" href="#">Footnotes Upload Service</a> <a class="collapse-item" href="#">Full Map Routings Subscriptions</a> <a class="collapse-item" href="#">Full Map Routings – Upload</a> <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions</a> <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions</a> <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a> <a class="collapse-item" href="#">Service Fees Subscription Documentation</a> <a class="collapse-item" href="#">Supporting Data Subscription Service</a> <a class="collapse-item" href="#">Tax Collection and Distribution</a> <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
-          </div>
-        </div>
-      </li>
-      <li style="list-style: none; display: inline">
-        <hr class="sidebar-divider">
-      </li>
-      <!--<li class="nav-item">
-        <a aria-controls="collapseUtilities" aria-expanded="true" class="nav-link collapsed" data-target="#collapseUtilities" data-toggle="collapse" href="#"><i class="far fa-calendar-alt"></i> <span>Events</span></a>
-        <div aria-labelledby="headingUtilities" class="collapse" data-parent="#accordionSidebar" id="collapseUtilities">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a> <a class="collapse-item" href="#">Answer Table Subscriptions</a> <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a> <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a> <a class="collapse-item" href="#">Automated Rules Upload</a> <a class="collapse-item" href="#">Fares Download Service</a> <a class="collapse-item" href="#">Fare Rule Output Product (FROP)</a> <a class="collapse-item" href="#">Fares Subscriptions</a> <a class="collapse-item" href="#">Fares Upload Service</a> <a class="collapse-item" href="#">Footnotes Upload Service</a> <a class="collapse-item" href="#">Full Map Routings Subscriptions</a> <a class="collapse-item" href="#">Full Map Routings – Upload</a> <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions</a> <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions</a> <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a> <a class="collapse-item" href="#">Service Fees Subscription Documentation</a> <a class="collapse-item" href="#">Supporting Data Subscription Service</a> <a class="collapse-item" href="#">Tax Collection and Distribution</a> <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
-          </div>
-        </div>
-      </li>-->
-      <li style="list-style: none; display: inline">
-        <hr class="sidebar-divider">
-      </li>
-      <li class="nav-item">
-        <a aria-controls="collapseUtilities" aria-expanded="true" class="nav-link collapsed" data-target="#collapseUtilities" data-toggle="collapse" href="#"><i class="fas fa-users-cog"></i> <span>Working Groups</span></a>
-        <div aria-labelledby="headingUtilities" class="collapse" data-parent="#accordionSidebar" id="collapseUtilities">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a> <a class="collapse-item" href="#">Answer Table Subscriptions</a> <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a> <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a> <a class="collapse-item" href="#">Automated Rules Upload</a> <a class="collapse-item" href="#">Fares Download Service</a> <a class="collapse-item" href="#">Fare Rule Output Product (FROP)</a> <a class="collapse-item" href="#">Fares Subscriptions</a> <a class="collapse-item" href="#">Fares Upload Service</a> <a class="collapse-item" href="#">Footnotes Upload Service</a> <a class="collapse-item" href="#">Full Map Routings Subscriptions</a> <a class="collapse-item" href="#">Full Map Routings – Upload</a> <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions</a> <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions</a> <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a> <a class="collapse-item" href="#">Service Fees Subscription Documentation</a> <a class="collapse-item" href="#">Supporting Data Subscription Service</a> <a class="collapse-item" href="#">Tax Collection and Distribution</a> <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
-          </div>
-        </div>
-      </li>
-      <li style="list-style: none; display: inline">
-        <hr class="sidebar-divider">
-      </li>
-      <li class="nav-item">
-        <a aria-controls="collapseUtilities" aria-expanded="true" class="nav-link collapsed" data-target="#collapseUtilities" data-toggle="collapse" href="#"><i class="fas fa-plane"></i> <span>FareManager</span></a>
-        <div aria-labelledby="headingUtilities" class="collapse" data-parent="#accordionSidebar" id="collapseUtilities">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="#">Abbreviated Text Subscriptions</a> <a class="collapse-item" href="#">Answer Table Subscriptions</a> <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Full Text Subscriptions</a> <a class="collapse-item" href="#">Automated Rules &amp; Footnotes Subscriptions</a> <a class="collapse-item" href="#">Automated Rules Upload</a> <a class="collapse-item" href="#">Fares Download Service</a> <a class="collapse-item" href="#">Fare Rule Output Product (FROP)</a> <a class="collapse-item" href="#">Fares Subscriptions</a> <a class="collapse-item" href="#">Fares Upload Service</a> <a class="collapse-item" href="#">Footnotes Upload Service</a> <a class="collapse-item" href="#">Full Map Routings Subscriptions</a> <a class="collapse-item" href="#">Full Map Routings – Upload</a> <a class="collapse-item" href="#">Government Filing System Justification (GFSJ) Subscriptions</a> <a class="collapse-item" href="#">New Carrier, City, and Fare Class (CCF) Subscriptions</a> <a class="collapse-item" href="#">Passenger Facility Charges Subscription Documentation</a> <a class="collapse-item" href="#">Service Fees Subscription Documentation</a> <a class="collapse-item" href="#">Supporting Data Subscription Service</a> <a class="collapse-item" href="#">Tax Collection and Distribution</a> <a class="collapse-item" href="#">US Domestic Flight Segment Tax Absorption</a>
-          </div>
-        </div>
-      </li>
-      <li style="list-style: none; display: inline">
-        <hr class="sidebar-divider">
-      </li>
-    </ul><!-- End of Sidebar -->
+ 
+      </ul><!-- End of Sidebar -->
     <!-- Content Wrapper -->
     <div class="d-flex flex-column" id="content-wrapper">
       <!-- Main Content -->
