@@ -20,9 +20,7 @@
       <!-- Sidebar -->
       <ul class="navbar-nav sidebar accordion" id="accordionSidebar">
          <!-- Sidebar - Brand -->
-         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-            <div class="sidebar-brand-text mx-3" id="logo"><img src="img/logo.png"></div>
-         </a>
+        
          <!-- Divider -->
          <hr class="sidebar-divider my-0">
          <!-- Nav Item - Dashboard -->
@@ -100,7 +98,7 @@
          <!-- Main Content -->
          <div id="content">
             <!-- Topbar -->
-            <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+            <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 fixed-top">
                <!-- Sidebar Toggle (Topbar) -->
                <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                   <i class="fa fa-bars"></i>
@@ -108,7 +106,11 @@
                <!-- Topbar Navbar -->
                <ul class="navbar-nav main-menu-nav">
                   <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-                  
+                   <li>
+                    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                          <div id="logo"><img src="img/logo.png" width="150"></div>
+                    </a>
+                  </li>
 
                   <!-- Site Nav -->
 
@@ -344,7 +346,7 @@
 </nav>
 <!-- End of Topbar -->
 <!-- Begin Page Content -->
-<div class="container-fluid">
+<div class="container-fluid main">
    <!-- Page Heading -->
             <!--<div class="d-sm-flex align-items-center justify-content-between mb-0">
                <ol class="breadcrumb col-md-12">
@@ -354,7 +356,7 @@
             <!-- Content Row -->
             <div class="row">
                <div class="col-xl-10 col-lg-8">
-                  <div class="card shadow mb-4">
+                  <div class="card mb-4 search-bar shadow">
                      <div class="card-body">
                         <!-- Topbar Search -->
                         <form class="d-flex mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
